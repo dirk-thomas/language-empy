@@ -1,0 +1,97 @@
+'fileTypes': [
+  'em'
+]
+'name': 'EmPy'
+'patterns': [
+  {
+    'comment': 'EmPy comment line'
+    'match': '@#.*'
+    'name': 'comment.empy'
+  }
+  {
+    'comment': 'EmPy block of statements'
+    'begin': '@\\{'
+    'beginCaptures': {
+      '0': {
+        'name': 'storage.type.statement.empy'
+      }
+    }
+    'end': '}'
+    'endCaptures': {
+      '0': {
+        'name': 'storage.type.statement.empy'
+      }
+    }
+    'patterns': [
+      'include': 'source.python'
+    ]
+  }
+  {
+    'comment': 'EmPy control structure'
+    'begin': '@\\[(end )?'
+    'beginCaptures': {
+      '0': {
+        'name': 'storage.type.control.empy'
+      }
+    }
+    'end': ']'
+    'endCaptures': {
+      '0': {
+        'name': 'storage.type.control.empy'
+      }
+    }
+    'patterns': [
+      'include': 'source.python'
+    ]
+  }
+  {
+    'comment': 'EmPy expression'
+    'begin': '@\\('
+    'beginCaptures': {
+      '0': {
+        'name': 'storage.type.control.empy'
+      }
+    }
+    'end': '\\)'
+    'endCaptures': {
+      '0': {
+        'name': 'storage.type.control.empy'
+      }
+    }
+    'patterns': [
+      'include': 'source.python'
+    ]
+  }
+  {
+    'comment': 'EmPy simple expression'
+    'match': '(@)(\\w+)'
+    'captures': {
+      '1': {
+        'name': 'comment'
+      }
+      '2': {
+        'name': 'variable.parameter.function.python'
+      }
+    }
+  }
+  {
+    'comment': 'EmPy literal at sign'
+    'match': '(@)@'
+    'captures': {
+      '1': {
+        'name': 'comment'
+      }
+    }
+  }
+  {
+    'comment': 'EmPy ignoring whitespace character following the at sign'
+    'match': '@\\s'
+    'name': 'comment'
+  }
+  {
+    'comment': 'EmPy literal at sign'
+    'match': '@$'
+    'name': 'comment'
+  }
+]
+'scopeName': 'source.empy'
