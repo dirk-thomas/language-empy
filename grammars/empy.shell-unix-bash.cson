@@ -1,0 +1,35 @@
+'fileTypes': [
+  'sh.em'
+  'bash.em'
+  'ksh.em'
+  'zsh.em'
+  'zsh-theme.em'
+  'zshenv.em'
+  'zlogin.em'
+  'zlogout.em'
+  'zprofile.em'
+  'zshrc.em'
+  'bashrc.em'
+  'bash_profile.em'
+  'bash_login.em'
+  'profile.em'
+  'bash_logout.em'
+  '.textmate_init.em'
+  'npmrc.em'
+  'PKGBUILD.em'
+  'install.em'
+  'cygport.em'
+  'bats.em'
+  'ebuild.em'
+]
+'name': 'EmPy Shell Script'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'Shell source'
+    'include': 'source.shell'
+  }
+]
+'scopeName': 'source.empy.shell'

@@ -1,0 +1,15 @@
+'fileTypes': [
+  'c.em'
+  'h.em'
+]
+'name': 'EmPy C'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'C source'
+    'include': 'source.c'
+  }
+]
+'scopeName': 'source.empy.c'

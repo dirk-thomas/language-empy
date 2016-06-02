@@ -1,0 +1,27 @@
+'fileTypes': [
+  'cpy.em'
+  'gyp.em'
+  'gypi.em'
+  'kv.em'
+  'py.em'
+  'pyw.em'
+  'rpy.em'
+  'SConscript.em'
+  'SConstruct.em'
+  'Sconstruct.em'
+  'sconstruct.em'
+  'Snakefile.em'
+  'tac.em'
+  'wsgi.em'
+]
+'name': 'EmPy Python'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'Python source'
+    'include': 'source.python'
+  }
+]
+'scopeName': 'source.empy.python'

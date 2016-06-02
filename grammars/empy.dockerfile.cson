@@ -1,0 +1,14 @@
+'fileTypes': [
+  'Dockerfile.em'
+]
+'name': 'EmPy Dockerfile'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'Dockerfile source'
+    'include': 'source.dockerfile'
+  }
+]
+'scopeName': 'source.empy.dockerfile'

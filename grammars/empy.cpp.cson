@@ -1,0 +1,30 @@
+'fileTypes': [
+  'cc.em'
+  'cpp.em'
+  'cp.em'
+  'cxx.em'
+  'c++.em'
+  'cu.em'
+  'cuh.em'
+  'h.em'
+  'hh.em'
+  'hpp.em'
+  'hxx.em'
+  'h++.em'
+  'inl.em'
+  'ino.em'
+  'ipp.em'
+  'tcc.em'
+  'tpp.em'
+]
+'name': 'EmPy C++'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'C++ source'
+    'include': 'source.cpp'
+  }
+]
+'scopeName': 'source.empy.cpp'
