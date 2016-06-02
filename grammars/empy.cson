@@ -84,12 +84,12 @@
     }
   }
   {
-    'comment': 'EmPy ignoring whitespace character following the at sign'
+    'comment': 'EmPy whitespace character following the at sign'
     'match': '@\\s'
     'name': 'comment'
   }
   {
-    'comment': 'EmPy literal at sign'
+    'comment': 'EmPy literal at sign at end of line'
     'match': '@$'
     'name': 'comment'
   }
