@@ -1,0 +1,14 @@
+'fileTypes': [
+  'cmake.em'
+]
+'name': 'EmPy CMake'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'CMake source'
+    'include': 'source.cmake'
+  }
+]
+'scopeName': 'source.empy.cmake'
