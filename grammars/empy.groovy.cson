@@ -1,0 +1,17 @@
+'fileTypes': [
+  'groovy.em'
+  'gvy.em'
+  'gradle.em'
+  'Jenkinsfile.em'
+]
+'name': 'EmPy Groovy'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'Groovy source'
+    'include': 'source.groovy'
+  }
+]
+'scopeName': 'source.empy.groovy'
