@@ -1,4 +1,5 @@
 'fileTypes': [
+  'CMakeLists.txt.em'
   'cmake.em'
 ]
 'name': 'EmPy CMake'
