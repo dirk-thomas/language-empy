@@ -8,7 +8,9 @@ Currently the following subgrammars are being supported:
 
 * C
 * C++
+* CMake
 * Dockerfile
+* Groovy
 * Python
 * Shell Unix Bash
 * XML
