@@ -1,0 +1,15 @@
+'fileTypes': [
+  'bat.em'
+  'cmd.em'
+]
+'name': 'EmPy Batchfile'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'Batchfile source'
+    'include': 'source.batchfile'
+  }
+]
+'scopeName': 'source.empy.batchfile'

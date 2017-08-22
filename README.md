@@ -6,6 +6,7 @@ All templates should end with `.em`.
 A second extension can be used to select the grammar of the non-templated part, e.g. `.cpp.em`.
 Currently the following subgrammars are being supported:
 
+* Batchfile
 * C
 * C++
 * CMake
