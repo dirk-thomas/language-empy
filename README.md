@@ -12,6 +12,7 @@ Currently the following subgrammars are being supported:
 * CMake
 * Dockerfile
 * Groovy
+* HTML
 * Python
 * Shell Unix Bash
 * XML

@@ -1,0 +1,15 @@
+'fileTypes': [
+  'htm.em'
+  'html.em'
+]
+'name': 'EmPy HTML'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'HTML text'
+    'include': 'text.html.basic'
+  }
+]
+'scopeName': 'source.empy.html'
