@@ -1,0 +1,16 @@
+'fileTypes': [
+  'ps1.em'
+  'psd1.em'
+  'psm1.em'
+]
+'name': 'EmPy PowerShell Script'
+'patterns': [
+  {
+    'include': 'source.empy'
+  }
+  {
+    'comment': 'PowerShell source'
+    'include': 'source.powershell'
+  }
+]
+'scopeName': 'source.empy.powershell'

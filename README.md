@@ -13,6 +13,7 @@ Currently the following subgrammars are being supported:
 * Dockerfile
 * Groovy
 * HTML
+* PowerShell
 * Python
 * Shell Unix Bash
 * XML
